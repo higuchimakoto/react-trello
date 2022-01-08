@@ -32,7 +32,6 @@ export const TaskCardTitle = () => {
                         onBlur={handleBlur}
                         value={inputCardTitle}
                         maxLength={10}
-                        className="taskCardTitleInput"
                     />
                 </form>
             ) : (
